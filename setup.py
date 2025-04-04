@@ -15,8 +15,8 @@ setup(
     url="https://github.com/ciskosv/fastapi_response_standard",
     packages=find_packages(include=["fastapi_response_standard"]),
     install_requires=[
-        "fastapi>=0.95",
-        "starlette>=0.27",
+        "fastapi>=0.88",
+        "starlette>=0.22",
         "python-jose[cryptography]>=3.3.0"
     ],
     include_package_data=True,
