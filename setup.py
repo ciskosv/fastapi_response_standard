@@ -16,7 +16,7 @@ setup(
     packages=find_packages(include=["fastapi_response_standard"]),
     install_requires=[
         "fastapi>=0.88,<0.96",
-        "starlette>=0.22,<0.27",
+        "starlette>=0.22,<0.28",
         "python-jose[cryptography]>=3.3.0"
     ],
     include_package_data=True,
