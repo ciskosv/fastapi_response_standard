@@ -3,8 +3,7 @@ import os
 
 # Leer la versión de version.py
 version = {}
-version_file = ("version.py")
-with open(version_file, "r") as f:
+with open("fastapi_response_standard/version.py") as f:
     exec(f.read(), version)
 
 setup(
@@ -14,7 +13,7 @@ setup(
     author="Stefan Rivera",
     author_email="info@stefanrivera.com",
     url="https://github.com/ciskosv/fastapi_response_standard",
-    packages=find_packages(),
+    packages=find_packages(include=["fastapi_response_standard"]),
     install_requires=[
         "fastapi>=0.95",
         "starlette>=0.27",
