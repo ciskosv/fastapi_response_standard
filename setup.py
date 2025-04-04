@@ -25,5 +25,5 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Framework :: FastAPI",
     ],
-    python_requires=">=3.8",
+    python_requires=">=3.7",
 )
