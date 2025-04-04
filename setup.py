@@ -15,8 +15,8 @@ setup(
     url="https://github.com/ciskosv/fastapi_response_standard",
     packages=find_packages(include=["fastapi_response_standard"]),
     install_requires=[
-        "fastapi>=0.95",
-        "starlette>=0.26",
+        "fastapi>=0.88,<0.95",
+        "starlette>=0.22,<0.27",
         "python-jose[cryptography]>=3.3.0"
     ],
     include_package_data=True,
@@ -25,5 +25,5 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Framework :: FastAPI",
     ],
-    python_requires=">=3.8",
+    python_requires=">=3.7, <3.11",
 )
